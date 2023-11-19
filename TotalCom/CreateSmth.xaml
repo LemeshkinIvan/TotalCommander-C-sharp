@@ -1,0 +1,19 @@
+﻿<Window x:Class="TotalCom.CreateSmth"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TotalCom"
+        mc:Ignorable="d"
+        Title="CreateSmth" Height="450" Width="350">
+    <Grid>
+        <Button Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="58,265,0,0" VerticalAlignment="Top" Width="60" Height="25" Click="Button_Click"/>
+        <Button Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="147,265,0,0" VerticalAlignment="Top" Width="65" Height="25" Click="btnDelete_Click"/>
+        <Label Content="File Operations" HorizontalAlignment="Left" Margin="58,93,0,0" VerticalAlignment="Top" Height="33" Width="119"/>
+        <TextBox x:Name="txtGetFileName" HorizontalAlignment="Left" Height="26" Margin="58,134,0,0" TextWrapping="Wrap" Text="Enter a name to file or directory" VerticalAlignment="Top" Width="242" TextChanged="txtGetFileName_TextChanged"/>
+        <Label Content="Choose operation" HorizontalAlignment="Left" Margin="49,208,0,0" VerticalAlignment="Top" Height="33" Width="139"/>
+        <RadioButton x:Name="RadioFolder" Content="Folder" HorizontalAlignment="Left" Height="24" Margin="58,178,0,0" VerticalAlignment="Top" Width="60"/>
+        <RadioButton x:Name="RadioFile" Content="File" HorizontalAlignment="Left" Height="20" Margin="187,178,0,0" VerticalAlignment="Top" Width="113"/>
+
+    </Grid>
+</Window>
